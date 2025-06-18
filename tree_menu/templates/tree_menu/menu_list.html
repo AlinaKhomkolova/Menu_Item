@@ -1,0 +1,6 @@
+{% load menu_tags %}
+
+{% for menu in menus %}
+<h2>Меню: {{menu.name}}</h2>
+{% draw_menu menu.name %}
+{% endfor %}

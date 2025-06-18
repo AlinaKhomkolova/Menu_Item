@@ -1,0 +1,18 @@
+{% load menu_tags %}
+
+{% for item in items %}
+<li>
+    <a href="{{ item.get_url }}"
+       {% if item.id in active_ids %}class="active" {% endif %}>
+        {{ item.title }}
+    </a>
+
+    {% if tree|get_item:item.id %}
+    {% if item.id in active_ids or item.parent_id in active_ids %}
+    <ul>
+        {% include "tree_menu/menu_items.html" with items=tree|get_item:item.id tree=tree active_ids=active_ids %}
+    </ul>
+    {% endif %}
+    {% endif %}
+</li>
+{% endfor %}

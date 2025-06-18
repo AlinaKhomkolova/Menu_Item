@@ -1,0 +1,201 @@
+[
+  {
+    "model": "tree_menu.menu",
+    "pk": 2,
+    "fields": {
+      "name": "Меню магазина"
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 18,
+    "fields": {
+      "menu": 2,
+      "parent": null,
+      "title": "Главная",
+      "url": "/home_market/",
+      "named_url": "",
+      "order": 1
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 19,
+    "fields": {
+      "menu": 2,
+      "parent": null,
+      "title": "Каталог",
+      "url": "/catalog/",
+      "named_url": "",
+      "order": 2
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 20,
+    "fields": {
+      "menu": 2,
+      "parent": 19,
+      "title": "Электроника",
+      "url": "/catalog/electronics/",
+      "named_url": "",
+      "order": 1
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 21,
+    "fields": {
+      "menu": 2,
+      "parent": 19,
+      "title": "Одежда",
+      "url": "/catalog/clothing/",
+      "named_url": "",
+      "order": 2
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 22,
+    "fields": {
+      "menu": 2,
+      "parent": 20,
+      "title": "Смартфоны",
+      "url": "/catalog/electronics/smartphones/",
+      "named_url": "",
+      "order": 1
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 23,
+    "fields": {
+      "menu": 2,
+      "parent": 20,
+      "title": "Ноутбуки",
+      "url": "/catalog/electronics/laptops/",
+      "named_url": "",
+      "order": 2
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 24,
+    "fields": {
+      "menu": 2,
+      "parent": 21,
+      "title": "Мужская одежда",
+      "url": "/catalog/clothing/men/",
+      "named_url": "",
+      "order": 1
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 25,
+    "fields": {
+      "menu": 2,
+      "parent": 21,
+      "title": "Женская одежда",
+      "url": "/catalog/clothing/women/",
+      "named_url": "",
+      "order": 2
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 26,
+    "fields": {
+      "menu": 2,
+      "parent": 22,
+      "title": "Apple",
+      "url": "/catalog/electronics/smartphones/apple/",
+      "named_url": "",
+      "order": 1
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 27,
+    "fields": {
+      "menu": 2,
+      "parent": 22,
+      "title": "Samsung",
+      "url": "/catalog/electronics/smartphones/samsung/",
+      "named_url": "",
+      "order": 2
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 28,
+    "fields": {
+      "menu": 2,
+      "parent": 24,
+      "title": "Футболки",
+      "url": "/catalog/clothing/men/t-shirts/",
+      "named_url": "",
+      "order": 1
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 29,
+    "fields": {
+      "menu": 2,
+      "parent": 24,
+      "title": "Джинсы",
+      "url": "/catalog/clothing/men/jeans/",
+      "named_url": "",
+      "order": 2
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 30,
+    "fields": {
+      "menu": 2,
+      "parent": 25,
+      "title": "Платья",
+      "url": "/catalog/clothing/women/dresses/",
+      "named_url": "",
+      "order": 1
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 31,
+    "fields": {
+      "menu": 2,
+      "parent": 25,
+      "title": "Обувь",
+      "url": "/catalog/clothing/women/shoes/",
+      "named_url": "",
+      "order": 2
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 32,
+    "fields": {
+      "menu": 2,
+      "parent": null,
+      "title": "Акции",
+      "url": "/promotions/",
+      "named_url": "",
+      "order": 3
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 33,
+    "fields": {
+      "menu": 2,
+      "parent": null,
+      "title": "Доставка и оплата",
+      "url": "/delivery-and-payment/",
+      "named_url": "",
+      "order": 4
+    }
+  }
+]
