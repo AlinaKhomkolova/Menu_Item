@@ -1,0 +1,5 @@
+{% load menu_tags %}
+
+<ul>
+    {% include "tree_menu/menu_items.html" with items=tree|get_item:parent tree=tree active_ids=active_ids %}
+</ul>
