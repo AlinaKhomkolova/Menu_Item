@@ -29,7 +29,7 @@ cd Menu_Item
 ### 2. Создание виртуального окружения
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 source venv/bin/activate  # Linux/macOS
 ```
 
@@ -53,11 +53,11 @@ python manage.py migrate
 
 ## Загрузка фикстур
 
-```bush
+```bash
 python manage.py loaddata fixtures/fixture_market.json
 ```
 
-```bush
+```bash
 python manage.py loaddata fixtures/fixture_menu.json
 ```
 
