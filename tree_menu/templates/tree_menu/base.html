@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+{% load menu_tags %}
+
+<html>
+<head>
+    <title>Меню</title>
+    <style>
+        .active {
+            font-weight: bold;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+<h1>{{ menu_item.title }}</h1>
+{% draw_menu menu_item.menu.name %}
+
+</body>
+</html>

@@ -1,0 +1,213 @@
+[
+  {
+    "model": "tree_menu.menu",
+    "pk": 1,
+    "fields": {
+      "name": "Главное меню"
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 1,
+    "fields": {
+      "menu": 1,
+      "parent": null,
+      "title": "Главная",
+      "url": "/home/",
+      "named_url": "",
+      "order": 1
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 2,
+    "fields": {
+      "menu": 1,
+      "parent": null,
+      "title": "О компании",
+      "url": "/about/",
+      "named_url": "",
+      "order": 2
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 3,
+    "fields": {
+      "menu": 1,
+      "parent": 2,
+      "title": "Наша команда",
+      "url": "/about/team/",
+      "named_url": "",
+      "order": 1
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 4,
+    "fields": {
+      "menu": 1,
+      "parent": 2,
+      "title": "История компании",
+      "url": "/about/history/",
+      "named_url": "",
+      "order": 2
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 5,
+    "fields": {
+      "menu": 1,
+      "parent": 3,
+      "title": "Руководство",
+      "url": "/about/team/management/",
+      "named_url": "",
+      "order": 1
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 6,
+    "fields": {
+      "menu": 1,
+      "parent": 3,
+      "title": "Сотрудники",
+      "url": "/about/team/employees/",
+      "named_url": "",
+      "order": 2
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 7,
+    "fields": {
+      "menu": 1,
+      "parent": null,
+      "title": "Услуги",
+      "url": "/services/",
+      "named_url": "",
+      "order": 3
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 8,
+    "fields": {
+      "menu": 1,
+      "parent": 7,
+      "title": "Консалтинг",
+      "url": "/services/consulting/",
+      "named_url": "",
+      "order": 1
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 9,
+    "fields": {
+      "menu": 1,
+      "parent": 7,
+      "title": "Разработка ПО",
+      "url": "/services/development/",
+      "named_url": "",
+      "order": 2
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 10,
+    "fields": {
+      "menu": 1,
+      "parent": 8,
+      "title": "Бизнес-анализ",
+      "url": "/services/consulting/business-analysis/",
+      "named_url": "",
+      "order": 1
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 11,
+    "fields": {
+      "menu": 1,
+      "parent": 8,
+      "title": "Финансовый консалтинг",
+      "url": "/services/consulting/financial/",
+      "named_url": "",
+      "order": 2
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 12,
+    "fields": {
+      "menu": 1,
+      "parent": 9,
+      "title": "Веб-разработка",
+      "url": "/services/development/web/",
+      "named_url": "",
+      "order": 1
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 13,
+    "fields": {
+      "menu": 1,
+      "parent": 9,
+      "title": "Мобильная разработка",
+      "url": "/services/development/mobile/",
+      "named_url": "",
+      "order": 2
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 14,
+    "fields": {
+      "menu": 1,
+      "parent": 10,
+      "title": "Анализ рынка",
+      "url": "/services/consulting/business-analysis/market-research/",
+      "named_url": "",
+      "order": 1
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 15,
+    "fields": {
+      "menu": 1,
+      "parent": 10,
+      "title": "SWOT-анализ",
+      "url": "/services/consulting/business-analysis/swot/",
+      "named_url": "",
+      "order": 2
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 16,
+    "fields": {
+      "menu": 1,
+      "parent": 12,
+      "title": "Frontend-разработка",
+      "url": "/services/development/web/frontend/",
+      "named_url": "",
+      "order": 1
+    }
+  },
+  {
+    "model": "tree_menu.menuitem",
+    "pk": 17,
+    "fields": {
+      "menu": 1,
+      "parent": 12,
+      "title": "Backend-разработка",
+      "url": "/services/development/web/backend/",
+      "named_url": "",
+      "order": 2
+    }
+  }
+]
